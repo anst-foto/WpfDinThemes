@@ -8,4 +8,23 @@
         <UseWPF>true</UseWPF>
     </PropertyGroup>
 
+    <ItemGroup>
+      <!--<Page Remove="Styles\BlueStyle.xaml" />
+      <Content Include="Styles\BlueStyle.xaml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Page Remove="Styles\GreyStyle.xaml" />
+      <Content Include="Styles\RedStyle.xaml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>
+      <Page Remove="Styles\Green.xaml" />
+      <Content Include="Styles\Green.xaml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Content>-->
+        <Page Remove="Styles\*.xaml"/>
+        <Content Include="Styles\*.xaml">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
 </Project>
